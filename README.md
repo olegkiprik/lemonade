@@ -22,7 +22,7 @@ Use the Bug Incubator:
 <code>
 void* mem;
 
-if (0 != frg_debug_mem_init(1, 8)) {
+if (0 != frg_debug_mem_init(1, 0x1000)) {
     /* failed to init */
 }
 
